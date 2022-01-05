@@ -13,5 +13,5 @@ puts @total = Store.sum(:annual_revenue)
 puts @avg = Store.average(:annual_revenue)
 
 #puts "Total #{@total} Avg #{@avg}"
-puts Store.where("annual_revenue>= 100000").count
+puts Store.where("annual_revenue>= 1000000").count
 
