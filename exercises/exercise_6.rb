@@ -10,12 +10,12 @@ puts "----------"
 
 # Your code goes here ...
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Jessica", last_name: "Smith", hourly_rate: 55)
-@store1.employees.create(first_name: "Deb", last_name: "Burrel", hourly_rate: 65)
+@store1.employees.create(first_name: "nixon", last_name: "jahan", hourly_rate: 55)
+@store1.employees.create(first_name: "bobby", last_name: "Burito", hourly_rate: 65)
 
-@store2.employees.create(first_name: "David", last_name: "Rose", hourly_rate: 67)
-@store2.employees.create(first_name: "John", last_name: "Martins", hourly_rate: 52)
-@store2.employees.create(first_name: "Paul", last_name: "Gladwell",  hourly_rate: 60)
+@store2.employees.create(first_name: "kate", last_name: "Rose", hourly_rate: 67)
+@store2.employees.create(first_name: "John", last_name: "jolly", hourly_rate: 52)
+@store2.employees.create(first_name: "Pauly", last_name: "ushan",  hourly_rate: 60)
 
 puts @store1.employees.count
 
